@@ -29,7 +29,6 @@ def shopSmart(orderList, fruitShops):
         orderList: List of (fruit, numPound) tuples
         fruitShops: List of FruitShops
     """
-    "*** YOUR CODE HERE ***"
     costs = []
     for shop in fruitShops:
         costs.append(shop.getPriceOfOrder(orderList))
